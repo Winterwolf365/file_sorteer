@@ -10,5 +10,6 @@ to intall and run this program make sure you have:
 and than open the terminal and run these commands:
 ```
 git clone https://github.com/Winterwolf365/file_sorteer.git
+cd file_sorter
 cargo run --release
 ```
