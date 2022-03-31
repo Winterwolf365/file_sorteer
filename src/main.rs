@@ -32,7 +32,7 @@ fn main() {
     for file in read_dir {
         // get the file details
         let file = file.expect("Coulden't read the file");
-        let date = file.metadata().unwrap().modified().unwrap();
+        let date = file.metadata().unwrap().created().unwrap();
         let file_name = String::from(file.file_name().to_str().unwrap());
 
         // check if the name is valid
