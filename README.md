@@ -13,4 +13,4 @@ git clone https://github.com/Winterwolf365/file_sorteer.git
 cd file_sorteer
 cargo build --release
 ```
-than you should have the executable file in the target folder
+than you should have the executable file in the release folder
