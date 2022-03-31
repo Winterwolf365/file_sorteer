@@ -11,5 +11,6 @@ and than open the terminal and run these commands:
 ```
 git clone https://github.com/Winterwolf365/file_sorteer.git
 cd file_sorteer
-cargo run --release
+cargo build --release
 ```
+than you should have the executable file in the target folder
